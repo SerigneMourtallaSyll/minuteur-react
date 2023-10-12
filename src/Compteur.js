@@ -63,7 +63,7 @@ class Compteur extends Component{
             <div className=" d-flex justify-content-center align-items-center py-5">
                 <div className="border p-0 col-md-3 py-5 rounded text-light bg-dark">
                     <h1>Minuteur</h1>
-                    <p className="pb-3">Temps écoulé: {heures}{heures<1 ? 'h': 'hrs'} {minutes}{minutes < 1 ? 'mn': 'mns'} {seconds}s</p>
+                    <p className="pb-3">Temps écoulés: {heures}{heures<1 ? 'h': 'hrs'} {minutes}{minutes < 1 ? 'mn': 'mns'} {seconds}s</p>
                     <div className="d-flex justify-content-center">
                         <div className="col-md-3 rounded-circle d-flex justify-content-center py-4  mx-2" id="start">
                             <div role="button" className="py-1 text-success" onClick={this.handleStartStopClick} >
