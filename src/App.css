@@ -43,6 +43,11 @@ h1 , p{
   font-family: 'Inconsolata';
 }
 
+img{
+  width: 60px;
+  height: 60px;
+}
+
 #start{
   background-color: #282c34;
   border: 1px solid green;

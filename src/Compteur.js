@@ -1,4 +1,5 @@
 import React , {Component} from "react";
+import imageTimer from '../src/assets/images/clock_1584942.png'
 
 class Compteur extends Component{
     constructor(props){
@@ -62,7 +63,7 @@ class Compteur extends Component{
         return(
             <div className=" d-flex justify-content-center align-items-center py-5">
                 <div className="border p-0 col-md-3 py-5 rounded text-light bg-dark">
-                    <h1>Minuteur</h1>
+                    <h1>Minuteur<img src={imageTimer} alt="img" /></h1>
                     <p className="pb-3">Temps écoulés: {heures}{heures<1 ? 'h': 'hrs'} {minutes}{minutes < 1 ? 'mn': 'mns'} {seconds}s</p>
                     <div className="d-flex justify-content-center">
                         <div className="col-md-3 rounded-circle d-flex justify-content-center py-4  mx-2" id="start">
